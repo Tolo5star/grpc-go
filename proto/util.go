@@ -2,14 +2,14 @@ package proto
 
 import (
 	"context"
-	"log"
+	fmt "fmt"
 )
 
 type Server struct{}
 
-// Function to send the message
+//Function to send the message
 func (s *Server) SendString(ctx context.Context, in *RequestString) (*Response, error) {
 	a := in.GetMess()
-	log.Println("%s", a)
+	fmt.Println(a)
 	return &Response{Sent: true}, nil
 }
