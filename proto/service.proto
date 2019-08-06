@@ -10,6 +10,6 @@ message Response{
     bool sent = 2;
 }
 
-service  AddService {
+service  Ping {
     rpc SendString(RequestString) returns (Response);
 }
