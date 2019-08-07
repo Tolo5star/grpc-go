@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+#proto generated code
+*.pb.go
 
 # Test binary, build with `go test -c`
 *.test
