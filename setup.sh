@@ -18,6 +18,4 @@ cd ..
 sudo docker build -t server-scratch -f server/Dockerfile.scratch .
 sudo docker build -t client-scratch -f client/Dockerfile .
 
-gnome-terminal -e "sudo docker run -it -p 8090:8090 server-scratch"
-read -p "Opening the server in a new terminal.Press enter after entering password in the new terminal to continue"
-sudo docker run -it --net=host client-scratch
+

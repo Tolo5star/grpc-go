@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: server-pod
+  labels:
+    app: grpc-app
+spec:
+  containers:
+  - name: server-pod
+    image: tolo5star/grpc-server-client:server
+    ports:
+      - containerPort: 8090
+

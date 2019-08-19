@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-pod
+  labels:
+    app: grpc-app-client
+spec:
+  hostNetwork: true
+  containers:
+  - name: client-pod
+    image: tolo5star/grpc-server-client:client
+
