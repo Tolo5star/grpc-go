@@ -1,6 +1,9 @@
-# grpc-go
 <h2>This is a simple demonstration of gRPC based server client interaction using Protocol buffers in containers(Docker)</h2>
-<h1>Implementation</h1>
+
+1. [Implementation](#imp)
+2. [Instructions to Running](#run)
+
+<h1><a name="imp">Implementation</a></h1>
 
 The message and service format in the proto is:
 ```
@@ -41,7 +44,7 @@ To set up a 2 Node Kubernetes cluster I have used Vagrant to setup 3 machines (2
 
 Then create a server pod and NodePort service on the kubernetes cluster and make the client interact with the service it from the host system.
 
-<h1>Running the project</h1>
+<h1><a name="run">Running the project</a></h1>
 
 ```
 ./setup.sh
