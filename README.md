@@ -1,7 +1,7 @@
 <h2>This is a simple demonstration of gRPC based server client interaction using Protocol buffers in containers(Docker)</h2>
 
 1. [Implementation](#imp)
-2. [Instructions to Running](#run)
+2. [Instructions for Running](#run)
 
 <h1><a name="imp">Implementation</a></h1>
 
